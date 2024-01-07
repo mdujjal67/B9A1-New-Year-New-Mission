@@ -1,10 +1,12 @@
-font-family: 'Merriweather', serif;
+/* font-family: 'Merriweather', serif;
+font-family: 'Inter', sans-serif; */
+
 *{
     margin: 0;
     padding: 0;
 }
-body{
-    font-family: 'Work Sans', sans-serif;;
+body,h1,h2,h3,h4{
+    font-family: Merriweather;
     margin: 0 auto;
 }
 .container{
@@ -17,7 +19,7 @@ body{
 }
 .banner-images {
     text-align: center;
-  }
+}
   .banner-image{
     border-radius: 16px;
     background:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
@@ -26,3 +28,104 @@ body{
     background-repeat: no-repeat;
     height: 600px;
   }
+  .banner-text{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 177px;
+    padding-bottom: 17px;
+  }
+  .banner-heading{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-left: 342px;
+    margin-right: 342px;
+  }
+  
+  /* discount area styles */
+  .discount-title{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 120px;
+}
+.discount-text{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+}
+.section-title{
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+.discount-image {
+    text-align: center;
+}
+
+/* Welcome-party section styles */
+.party-image{
+    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url('../images/Vectorrr.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+}
+.party-left-part {
+    width: 642px;
+}
+.welcome-party {
+    margin-top: 120px;
+}
+.party-title{
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-weight: 900;
+    margin-left: 126px;
+    padding-top: 126px;
+}
+.party-text{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 697px;
+    margin-left: 126px;
+    margin-top: 24px;
+}
+.party-join {
+    color: #EBE6E6;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #AAB0C04A;
+    border: none;
+    padding: 15px 20px;
+    margin-left: 158px;
+    margin-top: 48px;
+}
+.party-right-part {
+    padding: 68px 0px 68px 200px;
+  }
+.party-vector-image{
+    height: 465px;
+    width: 320px;
+}

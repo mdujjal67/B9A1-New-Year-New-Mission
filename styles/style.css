@@ -129,3 +129,117 @@ body,h1,h2,h3,h4{
     height: 465px;
     width: 320px;
 }
+
+/* date & time section styles */
+.date-time {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.date-time-bg{
+    width: 1320px;
+    height: 482px;
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 100px;
+}
+.place, .date, .time{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    line-height: 56px;
+}
+.date-join{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    padding: 16px 32px;
+    margin-top: 48px;
+    margin-bottom: 110px;
+}
+
+/* happy offer styles */
+.coming-soon{
+    display: flex;
+}
+.happy-offer-left {
+    width: 393px;
+  }
+  .happy-offer-middle {
+    width: 464px;
+    display: flex;
+    margin-left: 70px;
+    margin-right: 118px;
+  }
+  .happy-offer-right {
+    width: 276px;
+  }
+.coming-soon-text{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.section-title{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.coming-title{
+    text-align: left;
+}
+.coming-soon-descript{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.upper-circle{
+    height: 400px;
+    width: 400px;
+    color: #F00;
+}
+.happy-offer-middle img{
+    max-width: 380px;
+    max-height: 390px;
+}
+.middle-circle-img{
+    max-width: 365px;
+    max-height: 365px;
+}
+.coming-title{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+.year{
+    color: #F00;
+    font-family:  'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+.year-descript{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 16px;
+    margin-bottom: 43px;
+}
+

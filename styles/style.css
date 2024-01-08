@@ -464,6 +464,7 @@ a{
 .footer-icons {
     margin-left: 101px;
     margin-right: 106px;
+    display: flex;
   }
 .fb-icon, .insta-icon, .twit-icon, .link-icon{
     width: 64px;
@@ -507,6 +508,6 @@ a{
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
-    margin-left: 217px; 
+    margin-left: 202px; 
     margin-top: 260px;
 }

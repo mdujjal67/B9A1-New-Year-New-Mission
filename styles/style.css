@@ -378,3 +378,69 @@ body,h1,h2,h3,h4{
     position: absolute;
     right: 278px;
   }
+
+  /* footer part styles */
+  .whole-footer{
+    background: #070211;
+  }
+  .footer-part {
+    display: flex;
+    padding-top: 120px;
+  }
+  .footer-left{
+    margin-left: 140px;
+  }
+.footer-address{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    width: 375px;
+}
+.copyright-text{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 250px 0 120px 0;
+}
+.footer-icons {
+    margin-left: 101px;
+    margin-right: 106px;
+  }
+.fb-icon, .insta-icon, .twit-icon, .link-icon{
+    width: 64px;
+    height: 64px;
+    margin-left: 24px;
+    margin-top: 146px;
+}
+.footer-phone {
+    display: flex;
+}
+.contact-number{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-left: 16px;
+}
+.footer-website {
+    display: flex;
+}
+.website{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 16px;
+}
+.unsubscribe{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: auto; 
+    margin-top: 260px;
+}

@@ -209,8 +209,8 @@ body,h1,h2,h3,h4{
 }
 .upper-circle {
     width: 380px;
-    height: 364px;
-    background: #F00;
+    height: 328px;
+    border: 15px solid #F00;
     background-position-x: 0%;
     background-position-y: 0%;
     background-size: auto;
@@ -220,11 +220,11 @@ body,h1,h2,h3,h4{
     position: relative;
   }
   .middle-circle-img {
-    max-width: 310px;
-    max-height: 300px;
-    position: absolute;
-    left: 32px;
-    top: 32px;
+    max-width: 280px;
+    max-height: 280px;   
+    position: absolute;   
+    left: 26px;   
+    top: 24px;
   }
 .coming-title{
     color: #070211;
@@ -280,3 +280,101 @@ body,h1,h2,h3,h4{
     margin-right: 125px;
     margin-bottom: 64px;
 }
+
+/* portfolio section styles */
+.gift-text{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.portfolio-title{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.portfolio-descript{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+    width: 896px;
+}
+.upper-three-img {
+    display: flex;
+}
+.upper-img2, .upper-img3{
+    margin-left: 24px;
+}
+.bottom-three-img {
+    display: flex;
+    margin-top: 24px;
+}
+.portfolio {
+    margin-bottom: 120px;
+  }
+
+  /* newsletter section styles */
+  .newsletter {
+    margin-bottom: 120px;
+  }
+  .newsletter-bg{
+    width: 1320px;
+    height: 616px;    
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  .email-img{
+    margin-top: 80px;
+  }
+  .newsletter-title{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 22px;
+  }
+  .newsletter-descript{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0 212px 48px 212px;
+  }
+  .input-subscribe input[type="email"]{
+    padding: 25px 477px 25px 30px;
+    border-radius: 50px;
+    border: none;
+    background: #fff;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .input-subscribe {
+    position: relative;
+  }
+  .subscribe-btn{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    padding: 24px 56px;
+    position: absolute;
+    right: 278px;
+  }

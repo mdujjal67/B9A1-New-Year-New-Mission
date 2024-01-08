@@ -13,6 +13,10 @@ body,h1,h2,h3,h4{
     max-width: 1320px;
     margin: 0 auto;
 }
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
 .banner-img {
     height: 600px;
     text-align: center;
@@ -110,13 +114,15 @@ body,h1,h2,h3,h4{
     margin-left: 126px;
     margin-top: 24px;
 }
+.party-join a {
+    color: black;
+    text-transform: uppercase;
+  }
 .party-join {
-    color: #EBE6E6;
     font-size: 20px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     border-radius: 5px;
-    background: #AAB0C04A;
     border: none;
     padding: 15px 20px;
     margin-left: 158px;
@@ -153,7 +159,6 @@ body,h1,h2,h3,h4{
     line-height: 56px;
 }
 .date-join{
-    color: #fff;
     font-size: 20px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -163,6 +168,10 @@ body,h1,h2,h3,h4{
     padding: 16px 32px;
     margin-top: 48px;
     margin-bottom: 110px;
+    text-transform: uppercase;
+}
+.date-join a{
+    color: #fff;
 }
 
 /* happy offer styles */
@@ -281,6 +290,37 @@ body,h1,h2,h3,h4{
     margin-bottom: 64px;
 }
 
+/* festive-part styles */
+.festive-part{
+    margin-top: 510px;
+}
+.long-rectangle{
+    background: url('../images/Rectangle\ 2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 230px;
+    position: relative;
+}
+.box-img {
+    width: 650px;
+    height: 500px;
+    position: absolute;
+    bottom: 44px;
+    left: 30px;
+}
+.happy-girl {
+    width: 429px;
+    height: 433px;
+    position: absolute;
+    right: 0;
+    bottom: 229px;
+}
+.circle-discount {
+    position: absolute;
+    right: 275px;
+    bottom: 270px;
+}
+
 /* portfolio section styles */
 .gift-text{
     color: #F00;
@@ -288,6 +328,7 @@ body,h1,h2,h3,h4{
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 16px;
+    margin-top: 120px;
 }
 .portfolio-title{
     color: #070211;
@@ -305,8 +346,21 @@ body,h1,h2,h3,h4{
     margin-bottom: 48px;
     width: 896px;
 }
-.upper-three-img {
+.upper-three-img, .bottom-three-img{
     display: flex;
+    transition: 1s;
+}
+.upper-img1:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+}
+.upper-img2:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+}
+.upper-img3:hover{
+    transform: scale(1.07);
+    cursor: pointer;
 }
 .upper-img2, .upper-img3{
     margin-left: 24px;
@@ -314,6 +368,9 @@ body,h1,h2,h3,h4{
 .bottom-three-img {
     display: flex;
     margin-top: 24px;
+}
+.upper-img1:hover .upper-img1{ 
+    width: 500px;
 }
 .portfolio {
     margin-bottom: 120px;
@@ -366,7 +423,6 @@ body,h1,h2,h3,h4{
     position: relative;
   }
   .subscribe-btn{
-    color: #FFF;
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -378,6 +434,9 @@ body,h1,h2,h3,h4{
     position: absolute;
     right: 278px;
   }
+  .subscribe-btn a{
+    color: #fff;
+  }
 
   /* footer part styles */
   .whole-footer{
@@ -387,9 +446,7 @@ body,h1,h2,h3,h4{
     display: flex;
     padding-top: 120px;
   }
-  .footer-left{
-    margin-left: 140px;
-  }
+
 .footer-address{
     color: #FFF;
     font-family: 'Inter', sans-serif;
@@ -441,6 +498,6 @@ body,h1,h2,h3,h4{
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
-    margin-left: auto; 
+    margin-left: 217px; 
     margin-top: 260px;
 }
